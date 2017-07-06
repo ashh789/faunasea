@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<title>faunasea </title>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-101259364-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+</head>
+<body>
+
+<div class="container-fluid">
+<div class="navbar navbar-inverse">
+<a class="navbar-brand" href="/faunasea/" style="font-size:30px;margin-left:40px"> FaunaSea</a><br>
+<ul class="nav navbar-nav" style="float:right;margin-right:10%">
+
+<li><a href="{% url 'faunasea:about' %}">About</a></li>
+
+<li><a href="{% url 'faunasea:contact' %}">Contact</a></li>
+</ul>
+<small style="font-size:10px;color:white">"The Animal support portal"</small>
+</div>
+
+</div>
+<div class="container">
+    <i style="margin-left:40%;font-size:20px;color:grey">"One More Step For Animals" </i>
+       <div class="row" style="margin-top:5px">
+            <div class="col-md-4">
+                 <a href="https://www.google.co.in/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwiV7uHkicjUAhXLrI8KHXtSCtQQjRwIBw&url=https%3A%2F%2Fwall.alphacoders.com%2Fby_sub_category.php%3Fid%3D134801&psig=AFQjCNGK-ivEtLyEIGSfmM2eLLPdAK52Bw&ust=1497898732888704"><img src="https://images8.alphacoders.com/415/thumb-1920-415256.jpg" class="img-rounded" width="300"
+                 height="120"></a>
+            </div>
+            <div class="col-md-4">
+            <a href="http://files.sharenator.com/Cute_Animals_Friendship_Images_Background_HD_Wallpaper-s1680x945-395751.jpg"><img src="data:image/jpeg;base64,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" class="img-rounded" width="300"
+            height="120"></a>
+            </div>
+            <div class="col-md-4">
+             <a href="http://7-themes.com/data_images/out/73/7022323-cute-animals.jpg"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSn3Fb6HcQBZrKGV8y2WYrC5eFjWRp3l9bRbhgTOHBTtg4sMGH-" class="img-rounded" width="300"
+             height="120"></a>
+            </div>
+       </div>
+
+       <div class="row">
+            <div class="col-md-5" style="margin-top:20px">
+                 <div class="panel panel-danger">
+                      <div class="panel-body">
+                           <ul>
+                               <li>Almost one thousand whales, dolphins, and porpoises die every day in nets and fishing gear.</li>
+							   <br>
+                               <li>Over 115 million animals-mice, ratsdogs, cats, rabbit, monkeys, 
+                               birds, among other are killed in Laboratory experiments Worldwide.</li><br>
+                               <li>It's been estimated that there are 900 to 2,000 new cases every year of Animal hoarding
+                               in the US.</li>
+                           </ul>
+                              <a href="https://www.google.co.in/url?sa=t&rct=j&q=&esrc=s&source=web&cd=3&cad=rja&uact=8&ved=0ahUKEwia6tejt8DUAhXLMY8KHR8NCFMQFggtMAI&url=http%3A%2F%2Fwww.humanesociety.org%2Fissues%2Fabuse_neglect%2Ffacts%2Fanimal_cruelty_facts_statistics.html&usg=AFQjCNE6TC5dITkvJcfB-vqb7VTHH-TJ1Q">--Source--</a>
+                     </div>
+                </div>
+           </div>
+           <div class="col-md-7">
+		        <form action="{% url 'faunasea:info' %}" method="POST">
+				{% csrf_token %}
+                <div style="margin-top:40px">
+				<label for="comment">It would be helpful if you could write anything for Animals :<br>
+                 <p><small><i style=" font-size:11px">(Ex: your Suggestions, Empathy or Concern)</i></small></p>				</label>
+				<textarea class="form-control" 
+				name="box" rows="3" id="comment"></textarea>
+				</div>
+                <button type="submit" class="btn btn-success" name="submit">Submit</button>
+				</form>
+                     <br><br>
+
+                <i style="font-style:oblique;font-size:20px;margin-left:15%;"> - They don't have voice, We can be their voice.</i>
+				<div style="font-size:12px;margin-left:1%;margin-top:20px">
+                Note: This Survey could be taken further to <a href="https://www.google.co.in/url?sa=t&rct=j&q=&esrc=s&source=web&cd=4&cad=rja&uact=8&ved=0ahUKEwiDwL3hxcTUAhVDto8KHfxdBScQFgjWATAD&url=https%3A%2F%2Feia-international.org%2Ftag%2Fanimal-welfare-institute&usg=AFQjCNGbNwt0ytTU-3HsWVcLl7Y_98Vklw&sig2=34SQ3sy_IMj_ZewBFPM9wg">Animal welfare institute |</a>
+				<a href="https://www.google.co.in/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwiC9fjixsTUAhUFv48KHQGVCogQFggoMAA&url=http%3A%2F%2Fwww.idaindia.org%2F&usg=AFQjCNGfBKSp_P-L1li1zva2LhH9bPeqYQ&sig2=ur8K-E7_Fzf3Jz6NJka0LQ">In Defence of Animals.</a>
+           </div>
+           </div>
+		   
+		   
+       </div>
+   </div>
+
+</body>
+</html>
