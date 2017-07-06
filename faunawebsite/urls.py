@@ -3,5 +3,5 @@ from django.contrib import admin
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^faunasea/',include("faunasea.url"))
+    url(r'', include("faunasea.url"))
 ]
